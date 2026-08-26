@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<extentreports>
+    <configuration>
+        <theme>DARK</theme>
+        <documentTitle>SauceDemo Automation Report</documentTitle>
+        <reportName>SauceDemo Cucumber Test Report</reportName>
+        <timeFormat>HH:mm:ss</timeFormat>
+        <dateFormat>dd-MM-yyyy HH:mm:ss</dateFormat>
+    </configuration>
+</extentreports>
