@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-25T15:58:37 IST" name="Default suite" finished-at="2026-08-25T15:58:53 IST" duration-ms="15884">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testRunner.TestRunner@7c3fdb62]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-08-25T15:58:37 IST" name="Default test" finished-at="2026-08-25T15:58:53 IST" duration-ms="15884">
+      <class name="com.testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.testRunner.TestRunner@7c3fdb62]" started-at="2026-08-25T15:58:37 IST" name="setUpClass" finished-at="2026-08-25T15:58:38 IST" duration-ms="839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e6d4780]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testRunner.TestRunner@7c3fdb62]" started-at="2026-08-25T15:58:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-25T15:58:51 IST" duration-ms="12650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter -> Price (High to Low)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the Filter"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testRunner.TestRunner@7c3fdb62]" started-at="2026-08-25T15:58:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-25T15:58:51 IST" duration-ms="13044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter -> Price (Low to High)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the Filter"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testRunner.TestRunner@7c3fdb62]" started-at="2026-08-25T15:58:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-25T15:58:51 IST" duration-ms="13091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter -> Name (Z to A)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the Filter"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testRunner.TestRunner@7c3fdb62]" started-at="2026-08-25T15:58:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-25T15:58:51 IST" duration-ms="13080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter -> Name (A to Z)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the Filter"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.testRunner.TestRunner@7c3fdb62]" started-at="2026-08-25T15:58:51 IST" name="tearDownClass" finished-at="2026-08-25T15:58:53 IST" duration-ms="1894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
