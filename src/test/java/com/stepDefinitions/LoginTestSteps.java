@@ -20,6 +20,7 @@ public class LoginTestSteps {
 
 		Assert.assertTrue(DriverFactory.getDriver().getCurrentUrl().contains("saucedemo"));
 		System.out.println(DriverFactory.getDriver().getCurrentUrl());
+		System.out.println("Application Launched Successfully");
 
 	}
 

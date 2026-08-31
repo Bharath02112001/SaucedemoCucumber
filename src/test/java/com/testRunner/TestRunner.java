@@ -5,13 +5,13 @@ import org.testng.annotations.DataProvider;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
-@CucumberOptions(features = "src/test/resources/com.feature/Filter.feature", glue = { "com.stepDefinitions",
+@CucumberOptions(features = "src/test/resources/com.feature", glue = { "com.stepDefinitions",
 		"com.hooksClass" }, plugin = { "pretty", "summary", "html:target/CucumberReport.html",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm" }, publish = true)
 public class TestRunner extends AbstractTestNGCucumberTests {
 
-//	@BeforeClass
+//	@BeforeClassx
 //	@Parameters("browser")
 //	public void setBrowser(String browser) {
 //
@@ -20,9 +20,9 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 //		BrowserContext.setBrowser(browser);
 //	}
 
-	@Override
-	@DataProvider(parallel = true)
-	public Object[][] scenarios() {
-		return super.scenarios();
-	}
+//	@Override
+//	@DataProvider(parallel = true)
+//	public Object[][] scenarios() {
+//		return super.scenarios();
+//	}
 }

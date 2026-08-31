@@ -3,10 +3,8 @@ package com.hooksClass;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.testng.ITestContext;
 
 import com.driverFactory.DriverFactory;
-import com.utilities.BrowserContext;
 import com.utilities.ConfigReader;
 
 import io.cucumber.java.After;
@@ -26,9 +24,9 @@ public class MyHooks {
 
 	@Before(order = 1)
 	public void launchBrowser() {
-		
+
 		String browser = ConfigReader.getProperty("browser");
-		//String browser = BrowserContext.getBrowser();
+		// String browser = BrowserContext.getBrowser();
 		System.out.println("Thread: " + Thread.currentThread().getId() + " | Browser: " + browser);
 		driverFactory = new DriverFactory();
 		driverFactory.initializeBrowser(ConfigReader.getProperty("browser"));
