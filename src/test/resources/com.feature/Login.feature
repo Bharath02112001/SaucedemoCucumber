@@ -10,7 +10,7 @@ Feature: Login Functionality
     Examples:
       | Username                | Password     | Result  |
       | standard_user           | secret_sauce | Valid   |
-      #| locked_out_user         | secret_sauce | Invalid |
+      | locked_out_user         | secret_sauce | Invalid |
       | problem_user            | secret_sauce | Valid   |
       | performance_glitch_user | secret_sauce | Valid   |
       | error_user              | secret_sauce | Valid   |
