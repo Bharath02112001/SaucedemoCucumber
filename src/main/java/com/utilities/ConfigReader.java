@@ -7,9 +7,10 @@ import java.util.Properties;
 public class ConfigReader {
 
 	private static Properties prop;
-	
+
 	/**
 	 * This method is used to load the properties from the config.properties file
+	 * 
 	 * @return It returns properties object prop
 	 * 
 	 */
@@ -25,11 +26,11 @@ public class ConfigReader {
 		}
 		return prop;
 	}
-	
+
 	public static String getProperty(String key) {
 
-        return prop.getProperty(key);
+		return prop.getProperty(key);
 
-    }
+	}
 
 }

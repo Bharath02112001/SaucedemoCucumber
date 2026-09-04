@@ -40,15 +40,15 @@ public class LoginTestSteps {
 
 	@When("user click the login button")
 	public void user_click_the_login_button() {
-		
+
 		homePage = loginPage.clickOnLoginButton();
 
 	}
 
 	@Then("user should get the result")
 	public void user_should_get_the_result() {
-		
+
 		Assert.assertTrue(homePage.homePageTitleIsDisplay());
-	
+
 	}
 }

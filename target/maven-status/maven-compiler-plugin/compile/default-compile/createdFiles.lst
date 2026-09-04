@@ -1,9 +1,0 @@
-com\pages\HomePage.class
-com\driverFactory\DriverFactory.class
-com\utilities\ConfigReader.class
-com\pages\CartPage.class
-com\utilities\ConstantUtiles.class
-com\pages\LoginPage.class
-com\pages\FilterPage.class
-com\pages\CheckOutPage.class
-com\utilities\ElementUtils.class
